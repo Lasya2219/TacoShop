@@ -1,0 +1,90 @@
+.taco-logo{
+    height: 50px;
+    width: 80px;
+}
+.navbar{
+    background-color: crimson;
+}
+.home-background{
+    background-image: url("https://res.cloudinary.com/drhnzucmm/image/upload/v1702396518/Screenshot_2023-12-12_212224_h2h1es.png");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.taco-shop-heading{
+    font-size: 70px;
+    color: rgb(0, 128, 111);
+    font-weight: bold;
+    border-width: 10px;
+    border-style: solid;
+}
+.taco-shop-heading{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    border-width: 10px;
+    border-style: solid;
+}
+
+hr{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    color: black;
+    background-color: black;
+}
+
+
+.ourMenu-heading{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+.menu-intro-card{
+    background-image: linear-gradient(green,white,red);
+    color: rgb(232, 110, 35); 
+    font-weight: bold;
+    border-radius: 250px;
+    height: 370px;
+    width: 370px;
+    padding: 30px;
+    text-align: center;
+}
+.menu-background{
+    background-color: black;
+    background-size: cover;
+    font-weight: Roboto;
+}
+.menu-cards{
+    background-color: white;
+    border-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.tacos-menu-image{
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.tacos-menu-heading{
+    font-size: 30px;
+    color: white;
+}
+.add-to-cart-menu{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 15px;
+}
+.Customize-menu{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 15px;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="K Lasya Rao">
+        <meta name="description" content="My Own Website">
+        <title>Order Up</title>
+        <link rel="stylesheet" href="mywebsite.css" type="text/css">
+        <link rel="stylesheet" href="hotel.css" type="text/css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg     navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="https://th.bing.com/th/id/OIP.OartAVKirulch6CrW4sRuQHaHa?rs=1&pid=ImgDetMain" alt="Taco Logo" class="taco-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" href="#sectionHome">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#sectionMenu">Our Menu</a>
+                    <a class="nav-link" href="#sectionStore" target="_blank">Store House</a>
+                    <a class="nav-link" href="contactus.html" target="_blank">Contact Us</a>
+                  </div>
+                </div>
+                </nav>
+
+            <div id="sectionHome">
+                <div class="home-background d-flex flex-column justify-content-center p-5">
+                    <h1 class="taco-shop-heading">My Little Taco Shop</h1>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <section id="sectionMenu">             
+                    <div class="menu-background p-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="ourMenu-heading">Fiesta de Sabores</h1>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex flex-row justify-content-center mt-4">
+                                        <div class="menu-intro-card text-center d-flex flex-column justify-content-center">
+                                            <p>Indulge in the vibrant tapestry of Mexican flavors with our exquisite menu. From the sizzling spices of street tacos to the rich depth of traditional moles, each dish is a celebration of Mexico's culinary heritage. Join us on a journey where every bite tells a story of tradition, passion, and the artistry of Mexican cuisine. ¡Buen provecho!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="menu-cards mt-5">
+                                        <img src="https://www.hormelfoods.com/wp-content/uploads/Herdez_Air_Fried_Chicken_Tinga_Tacos-1600x1080-1.jpg" alt="" class="w-100">
+                                        <div class="p-3 pb-5 text-center">
+                                            <h1 class="tacos-menu-heading mb-4">Tempting Tacos</h1>
+                                            <button class="add-to-cart-menu">
+                                                ADD
+                                            </button>
+                                            
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="Customize-menu" data-toggle="modal" data-target="#exampleModal">
+                                            Customize
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Add Toppings</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body text-left">
+                                                    <p>Savor the essence of Mexico in our tacos—a fiesta of authentic flavors, expertly crafted with savory meats, vibrant salsas, and delightful textures. An irresistible celebration in every bite.</p>
+                                                    <ul>
+                                                        <li>Tomatoes</li>
+                                                        <li>Salsa</li>
+                                                        <li>Mushrooms</li>
+                                                        <li>Jalepeneos</li>
+                                                        <li>Olives</li>
+                                                        <li>Guacamole</li>
+                                                        <li>Hot Sauce</li>
+                                                        <li>Cilantro</li>
+                                                        <li>Onions(diced)</li>
+                                                        <li>Shredded Cheese</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="add-to-cart-menu" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="Customize-menu">Add  Toppings</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>                                
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="menu-cards mt-5">
+                                        <img src="https://www.hormelfoods.com/wp-content/uploads/Herdez_Chipotle_Steak_Kabobs_V2-2400x1000-1-1024x427.1681242550.jpg" alt="" class="w-100" height="363px">
+                                        <div class="p-3 pb-5 text-center">
+                                            <h1 class="tacos-menu-heading mb-4">Klassic Kebabs</h1>
+                                            <button class="add-to-cart-menu">
+                                                ADD
+                                            </button>
+                                            
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="Customize-menu" data-toggle="modal" data-target="#exampleModal">
+                                            Customize
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Add Toppings</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body text-left">
+                                                    <p>Savor the essence of Mexico in our tacos—a fiesta of authentic flavors, expertly crafted with savory meats, vibrant salsas, and delightful textures. An irresistible celebration in every bite.</p>
+                                                    <ul>
+                                                        <li>Tomatoes</li>
+                                                        <li>Salsa</li>
+                                                        <li>Mushrooms</li>
+                                                        <li>Tabbouleh</li>
+                                                        <li>Olives</li>
+                                                        <li>Guacamole</li>
+                                                        <li>Hot Sauce</li>
+                                                        <li>Cilantro</li>
+                                                        <li>Onions(diced)</li>
+                                                        <li>Pickled Red Onions</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="add-to-cart-menu" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="Customize-menu">Add  Toppings</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="menu-cards mt-5">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Burrito.JPG" alt="" class="w-100" height="363px">
+                                        <div class="p-3 pb-5 text-center">
+                                            <h1 class="tacos-menu-heading mb-4">Brimming Burritos</h1>
+                                            <button class="add-to-cart-menu">
+                                                ADD
+                                            </button>
+                                            
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="Customize-menu" data-toggle="modal" data-target="#exampleModal">
+                                            Customize
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Add Toppings</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body text-left">
+                                                    <p>Savor the essence of Mexico in our tacos—a fiesta of authentic flavors, expertly crafted with savory meats, vibrant salsas, and delightful textures. An irresistible celebration in every bite.</p>
+                                                    <ul>
+                                                        <li>Tomatoes</li>
+                                                        <li>Salsa</li>
+                                                        <li>Mushrooms</li>
+                                                        <li>Tabbouleh</li>
+                                                        <li>Olives</li>
+                                                        <li>Guacamole</li>
+                                                        <li>Hot Sauce</li>
+                                                        <li>Cilantro</li>
+                                                        <li>Onions(diced)</li>
+                                                        <li>Pickled Red Onions</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="add-to-cart-menu" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="Customize-menu">Add  Toppings</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="menu-cards mt-5">
+                                        <img src="https://www.shutterstock.com/image-photo/chicken-enchiladas-black-beans-mexican-600nw-2281642517.jpg" alt="" class="w-100" height="363px">
+                                        <div class="p-3 pb-5 text-center">
+                                            <h1 class="tacos-menu-heading mb-4">Enticing Enchiladas</h1>
+                                            <button class="add-to-cart-menu">
+                                                ADD
+                                            </button>
+                                            
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="Customize-menu" data-toggle="modal" data-target="#exampleModal">
+                                            Customize
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Add Toppings</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body text-left">
+                                                    <p>Savor the essence of Mexico in our tacos—a fiesta of authentic flavors, expertly crafted with savory meats, vibrant salsas, and delightful textures. An irresistible celebration in every bite.</p>
+                                                    <ul>
+                                                        <li>Tomatoes</li>
+                                                        <li>Salsa</li>
+                                                        <li>Mushrooms</li>
+                                                        <li>Tabbouleh</li>
+                                                        <li>Olives</li>
+                                                        <li>Guacamole</li>
+                                                        <li>Hot Sauce</li>
+                                                        <li>Cilantro</li>
+                                                        <li>Onions(diced)</li>
+                                                        <li>Pickled Red Onions</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="add-to-cart-menu" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="Customize-menu">Add  Toppings</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>                                
+                        </div>
+                    </div> 
+                    </div>               
+            </section>
+            <hr>
+            <section id="sectionStore">
+                <div class="about-us-background p-5">
+                    <h1 class="ourMenu-heading m-4" >About Us</h1>
+                    <p class="about-us-para">Welcome to My Little Taco Shop, where every bite tells a story of authentic Mexican flavors and heartfelt hospitality. Nestled in the heart of Hyderabad, we bring the vibrant spirit of Mexico to your plate with our handcrafted tacos and traditional recipes passed down through generations. <br>
+
+                        At My Little Taco Shop, we believe in the power of good food to bring people together. <br><br> Our mission is simple: <br> to serve up delicious tacos made with the freshest ingredients sourced locally whenever possible. From our savory meats to our homemade salsas and tortillas, each ingredient is carefully selected to ensure a burst of flavor in every bite.
+                        
+                        But it's not just about the food—it's about the experience. <br><br>Step into our cozy, vibrant space and let the aroma of spices and the sounds of laughter envelop you. Whether you're grabbing a quick bite with friends or enjoying a leisurely meal with family, our friendly staff is here to make sure your dining experience is nothing short of exceptional. <br>
+                        
+                        At My Little Taco Shop, we're more than just a taco restaurant; we're a celebration of Mexican culture and culinary craftsmanship. <br><br>Join us and experience the true taste of Mexico, one taco at a time.</p>
+                </div>           
+            </section>
+    </body>
+</html>
